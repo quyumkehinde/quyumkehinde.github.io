@@ -174,7 +174,7 @@ footer {
     font-size: 18px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .contactForm form input[type="email"] {
     width: 55%;
     display: inline-block;
@@ -183,8 +183,13 @@ footer {
     width: 35%;
     display: inline-block;
   }
-}
-.contactForm form button {
-  display: block;
-  margin-top: 5px;
+  .contactForm form button {
+    display: block;
+    margin-top: 5px;
+  }
+  header,
+  body > section,
+  footer {
+    padding: 25px 5%;
+  }
 }
