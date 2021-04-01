@@ -111,12 +111,13 @@ main {
 
 .jobinfo p,
 .jobinfo2 p {
-  flex-basis: 20%;
+  flex-basis: 30%;
   flex-grow: 1;
   flex-shrink: 1;
   text-align: center;
   color: white;
   margin-bottom: 0;
+  font-size: 15px;
 }
 .jobinfo2 p {
   color: #292f6b;
@@ -170,6 +171,20 @@ footer {
     font-size: 35px;
   }
   header p {
-    font-size: 20px;
+    font-size: 18px;
   }
+}
+@media (max-width: 400px) {
+  .contactForm form input[type="email"] {
+    width: 55%;
+    display: inline-block;
+  }
+  .contactForm form input[type="text"] {
+    width: 35%;
+    display: inline-block;
+  }
+}
+.contactForm form button {
+  display: block;
+  margin-top: 5px;
 }
