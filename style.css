@@ -93,24 +93,22 @@ main h2 {
 main {
   margin: 20px 0 70px 0;
 }
-.jobinfo {
+.jobinfo:nth-of-type(even) {
   background-color: #292f6b;
 }
-.jobinfo,
-.jobinfo2 {
+.jobinfo {
   display: flex;
   margin-top: 15px;
   align-items: center;
   padding: 15px 5px;
 }
-.jobinfo2 {
+.jobinfo:nth-of-type(odd) {
   background-color: white;
   color: #292f6b;
   border: 1px solid #292f6b;
 }
 
-.jobinfo p,
-.jobinfo2 p {
+.jobinfo p {
   flex-basis: 30%;
   flex-grow: 1;
   flex-shrink: 1;
@@ -119,7 +117,7 @@ main {
   margin-bottom: 0;
   font-size: 15px;
 }
-.jobinfo2 p {
+.jobinfo:nth-of-type(odd) p {
   color: #292f6b;
 }
 footer {
