@@ -141,6 +141,12 @@ border: 1px solid #292f6b;
 .jobinfo:nth-child(1) p {
   font-weight: bold;
 }
+
+.bfcontent{
+  padding: 50px 50px;
+  background: grey;
+}
+
 footer {
   padding: 50px 30px;
   background-color: #292f6b;
