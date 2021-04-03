@@ -95,7 +95,7 @@ main {
 }
 
 .jobinfo:nth-of-type(even) {
-background-color: #fff !important;
+background-color: #fff;
 color: #292f6b;
 border: 1px solid #292f6b;
 }
@@ -129,7 +129,7 @@ border: 1px solid #292f6b;
     flex-grow: 1;
     flex-shrink: 1;
     text-align: center;
-    color: #292f6b;
+    color: #292f6b !important;
     margin-bottom: 0;
     font-size: 15px;
 }
