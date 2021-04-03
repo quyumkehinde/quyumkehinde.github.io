@@ -62,8 +62,12 @@ header .row {
   align-items: center;
 }
 
-.jobs a{
+.position a{
   color: blue !important;
+}
+
+div.jobinfo:nth-child(9) > p:nth-child(3) > a:nth-child(1){
+  color: blue;
 }
 
 aside {
