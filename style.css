@@ -145,6 +145,8 @@ border: 1px solid #292f6b;
 .bfcontent{
   padding: 50px 50px;
   background: grey;
+  max-width: 68%;
+  margin: 0 auto;
 }
 
 footer {
