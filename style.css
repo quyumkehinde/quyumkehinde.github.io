@@ -3,7 +3,6 @@ body {
   padding: 0;
   background-color: white;
   font-family: Work Sans,sans-serif;
-  font-family: "Poppins", sans-serif;
 }
 header,
 body > section,
@@ -11,7 +10,7 @@ footer {
   padding: 25px 10%;
 }
 header h1 {
-  font-family: "Rubik", sans-serif;
+  font-family: Work Sans,sans-serif;
   font-weight: 400;
   font-size: 43px;
   margin: 25px 0;
