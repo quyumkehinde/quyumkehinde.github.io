@@ -62,7 +62,7 @@ header .row {
   align-items: center;
 }
 
-a{
+main > a{
   color: blue !important;
 }
 
