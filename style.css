@@ -61,6 +61,11 @@ header p {
 header .row {
   align-items: center;
 }
+
+a{
+  color: blue !important;
+}
+
 aside {
   border: 1px solid #292f6b;
   padding: 20px 8%;
