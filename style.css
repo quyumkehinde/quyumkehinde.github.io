@@ -95,7 +95,7 @@ main {
 }
 
 .jobinfo:nth-of-type(even) {
-background-color: white;
+background-color: #fff !important;
 color: #292f6b;
 border: 1px solid #292f6b;
 }
@@ -108,7 +108,7 @@ border: 1px solid #292f6b;
   padding: 15px 5px;
 }
 .jobinfo:nth-of-type(odd) {
-  background-color: white;
+  background-color: #fff;
   color: #292f6b;
   border: 1px solid #292f6b;
 }
@@ -143,7 +143,7 @@ border: 1px solid #292f6b;
 footer {
   padding: 50px 30px;
   background-color: #292f6b;
-  color: white;
+  color: #fff;
 }
 
 .contactForm form input[type="text"] {
@@ -165,9 +165,9 @@ footer {
   background-color: #292f6b;
   border: 0;
   padding: 5px 15px;
-  border: 1px solid white;
+  border: 1px solid #fff;
   box-sizing: border-box;
-  color: white;
+  color: #fff;
 }
 
 @media (max-width: 948px) {
