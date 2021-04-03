@@ -66,8 +66,8 @@ header .row {
   color: blue !important;
 }
 
-div.jobinfo:nth-child(9) > p:nth-child(3) > a:nth-child(1){
-  color: blue;
+.jobinfo:nth-child(9) > p:nth-child(3) > a:nth-child(1){
+  color: blue !important;
 }
 
 aside {
