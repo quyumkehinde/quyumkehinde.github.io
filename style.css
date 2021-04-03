@@ -62,14 +62,6 @@ header .row {
   align-items: center;
 }
 
-.position a{
-  color: blue !important;
-}
-
-.jobinfo:nth-child(9) > p:nth-child(3) > a:nth-child(1){
-  color: blue !important;
-}
-
 aside {
   border: 1px solid #292f6b;
   padding: 20px 8%;
