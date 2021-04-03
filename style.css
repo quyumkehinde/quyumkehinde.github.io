@@ -94,7 +94,10 @@ main {
   margin: 20px 0 70px 0;
 }
 .jobinfo:nth-of-type(even) {
-  background-color: #292f6b;
+/*   background-color: #292f6b; */
+  background-color: white;
+  color: #292f6b;
+  border: 1px solid #292f6b;
 }
 .jobinfo {
   display: flex;
