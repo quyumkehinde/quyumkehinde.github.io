@@ -94,11 +94,12 @@ main {
   margin: 20px 0 70px 0;
 }
 .jobinfo:nth-of-type(even) {
-/*   background-color: #292f6b; */
-  background-color: white;
-  color: #292f6b;
-  border: 1px solid #292f6b;
+background-color: #fff;
+border: 1px solid #292f6b;
 }
+
+// EDITED
+
 .jobinfo {
   display: flex;
   margin-top: 15px;
