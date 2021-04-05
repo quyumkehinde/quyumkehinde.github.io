@@ -1,9 +1,15 @@
+html,
+body {
+  height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
   background-color: white;
   font-family: poppins;
   font-family: "Poppins", sans-serif;
+  position: relative;
+  box-sizing: border-box;
 }
 header,
 body > section,
@@ -45,8 +51,15 @@ header p {
   background-color: #292f6b;
   color: white;
 }
+.newsBtn,
+.newsBtn:active,
+.newsBtn:focus {
+  border: 0;
+  outline: 0;
+}
 .newsBtn:hover {
   color: white;
+  text-decoration: underline;
 }
 .supportBtn {
   color: #292f6b;
@@ -93,33 +106,28 @@ main h2 {
 main {
   margin: 20px 0 70px 0;
 }
-.jobinfo:nth-of-type(even) {
-  background-color: #292f6b;
-}
 .jobinfo {
   display: flex;
   margin-top: 15px;
   align-items: center;
   padding: 15px 5px;
-}
-.jobinfo:nth-of-type(odd) {
   background-color: white;
-  color: #292f6b;
+  color: black;
   border: 1px solid #292f6b;
 }
+.jobinfo:nth-child(1) {
+  color: #292f6b;
+}
 
-.jobinfo p,
-.jobinfo p a {
+.jobinfo p {
   flex-basis: 30%;
   flex-grow: 1;
   flex-shrink: 1;
   text-align: center;
-  color: white;
   margin-bottom: 0;
   font-size: 15px;
 }
-.jobinfo:nth-of-type(odd) p,
-.jobinfo:nth-of-type(odd) a {
+.jobinfo a {
   color: #292f6b;
 }
 .jobinfo:nth-child(1) p {
@@ -154,7 +162,62 @@ footer {
   box-sizing: border-box;
   color: white;
 }
-
+.subArea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  z-index: -10;
+  transition: 0.2s opacity ease-in-out;
+}
+.subForm {
+  border: 1px solid #292f6b;
+  background-color: white;
+  padding: 5%;
+  box-sizing: border-box;
+  margin: 0 20px;
+}
+.subscribe {
+  background-color: #292f6b;
+  padding: 5px 10px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 2px;
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+.subscribe:hover {
+  background-color: white;
+  border: 1px solid #292f6b;
+  color: #292f6b;
+}
+.subForm input {
+  padding: 5px;
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+}
+.subArea .row {
+  align-items: center !important;
+}
+.subForm > button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  background-color: white;
+  border: 0;
+  border: 1px solid red;
+}
+.subForm > button:focus {
+  outline: 0;
+}
 @media (max-width: 948px) {
   .supportBtn {
     margin-left: 0.5rem;

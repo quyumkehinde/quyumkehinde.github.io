@@ -19,8 +19,8 @@
                 <h1>Remote SEO Jobs</h1>
                 <p>The easiest way to find very good SEO talents for your agency or startup company.</p>
                 <div class="callToAction">
-                    <a class="newsBtn" href="">Join Our Newsletter</a>
-                    <a class="supportBtn" href="">Support Website</a>
+                    <button class="newsBtn" id="subButton" >Join Our Newsletter</button>
+                    <a class="supportBtn"  href="">Support Website</a>
                 </div>
             </div>
             
@@ -43,6 +43,19 @@
                     <p class="position">Position</p>
                 
                 </div>
+                <div class="jobinfo">
+                    <p class="company">Company</p>
+                    <p class="location">Location</p>
+                    <p class="position"><a href="${url}">Position</a></p>
+                
+                </div>
+                <div class="jobinfo">
+                    <p class="company">Company</p>
+                    <p class="location">Location</p>
+                    <p class="position"><a href="${url}">Position</a></p>
+                
+                </div>
+                
                 <!-- Content will be dynamically added using javascript -->
             </div>
         </main>
@@ -63,6 +76,27 @@
     </footer>
     <script src="app.js">
         
+    </script>
+    <section style="opacity: 0;" class="row subArea">
+        <div class="col-xl-3 col-lg-3 col-sm-2 col-xs-1">
+
+        </div>
+        <div class="col-xl-6 col-lg-6 col-sm-8 col-xs-10 subForm">
+            <h2>SEO Job Alert!</h2>
+            <p>Get the latest SEO jobs delivered to your inbox weekly.</p>
+            <form>
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Enter your email" required />
+                <button type="submit" class="subscribe">Subscribe</button>
+            </form>
+            <button id="closebtn">X</button>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-xs-1 col-sm-2">
+
+        </div>
+    </section>
+    <script src="subscribe.js">
+
     </script>
 </body>
 </html>
