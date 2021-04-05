@@ -6,24 +6,23 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
-<<<<<<< HEAD
-  font-family: poppins;
-  font-family: "Poppins", sans-serif;
+  font-family: "poppins", sans-serif;
   position: relative;
-  box-sizing: border-box;
-=======
-  font-family: Work Sans,sans-serif;
->>>>>>> refs/remotes/origin/main
 }
 header,
 body > section,
-footer {
+footer,
+.bfcontent {
   padding: 25px 10%;
 }
+a,
+a:hover {
+  color: #292f6b;
+}
 header h1 {
-  font-family: Work Sans,sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 300;
-  font-size: 40px;  
+  font-size: 40px;
   margin: 25px 0;
 }
 header p {
@@ -33,9 +32,7 @@ header p {
 .heroContent span a {
   color: #292f6b;
 }
-/* .heroImage {
-  border: 1px solid red;
-} */
+
 .heroImage img {
   width: 100%;
   height: auto;
@@ -87,6 +84,7 @@ aside {
 }
 aside small {
   font-weight: 500;
+  font-size: 14px;
 }
 aside small a,
 aside small a:hover {
@@ -111,74 +109,38 @@ main h2 {
 main {
   margin: 20px 0 70px 0;
 }
-<<<<<<< HEAD
-=======
 
-.jobinfo:nth-of-type(even) {
-background-color: #fff;
-color: #292f6b;
-border: 1px solid #292f6b;
-}
-
-
->>>>>>> refs/remotes/origin/main
 .jobinfo {
+  background-color: #fff;
+  border: 1px solid #292f6b;
   display: flex;
   margin-top: 15px;
   align-items: center;
   padding: 15px 5px;
-<<<<<<< HEAD
-  background-color: white;
-  color: black;
-=======
 }
-.jobinfo:nth-of-type(odd) {
-  background-color: #fff;
-  color: #292f6b;
->>>>>>> refs/remotes/origin/main
-  border: 1px solid #292f6b;
-}
-.jobinfo:nth-child(1) {
-  color: #292f6b;
-}
-
-<<<<<<< HEAD
 .jobinfo p {
-=======
-/* .jobinfo p,
-.jobinfo p a {
->>>>>>> refs/remotes/origin/main
-  flex-basis: 30%;
+  flex-basis: 24%;
   flex-grow: 1;
   flex-shrink: 1;
   text-align: center;
+  color: black;
   margin-bottom: 0;
   font-size: 15px;
-} */
-.jobinfo p, 
-.jobinfo p a {
-    flex-basis: 30%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    text-align: center;
-    color: #292f6b !important;
-    margin-bottom: 0;
-    font-size: 15px;
 }
 .jobinfo a {
   color: #292f6b;
 }
 .jobinfo:nth-child(1) p {
   font-weight: bold;
+  color: #292f6b;
 }
 
-.bfcontent{
-  padding: 50px 50px;
+.bfcontent {
   margin: 0 auto;
   font-size: 16px;
 }
-.bfcontent h4{
- color: #292f6b;
+.bfcontent h4 {
+  color: #292f6b;
 }
 
 footer {

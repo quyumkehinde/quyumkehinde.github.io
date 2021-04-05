@@ -12,6 +12,6 @@ closeBtn.addEventListener("click", () =>{
     const areaNode = document.querySelector(".subArea");
     console.log("Hi")
     areaNode.style.opacity = "0";
-        areaNode.style.zIndex = "-10";
+        areaNode.style.zIndex = "-5";
         areaNode.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
 })
