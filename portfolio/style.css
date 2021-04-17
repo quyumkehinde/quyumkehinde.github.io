@@ -3,6 +3,9 @@ body {
   font-family: "Poppins";
   font-weight: normal;
 }
+a {
+  cursor: pointer;
+}
 
 header {
   background-image: url(images/hero.jpg);
@@ -151,7 +154,7 @@ header {
   transition: 0.2s all linear;
 }
 .headerInfo a:hover {
-  color: black;
+  color: black !important;
   background-color: white;
   border: 1px solid white;
 }
