@@ -12,9 +12,8 @@
     <script src="https://kit.fontawesome.com/0d8e5e6c23.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <script src="app.js">
-        
-    </script>
+    
+    
     <header>
         <nav class="nav-menu">
 
@@ -70,7 +69,7 @@
                     <h4 class="abouthead">Biography</h4>
                     <p class="aboutme">My name is Quyum Kehinde. I'm a 16-year-old website developer from Abeokuta, Nigeria.
                         My love for software development aroused when I was in high school, after I was able to print "Hello World" on the browser screen.<br /><br />
-                        I'm currently looking to join any small-medium sized company as a frontend developer. So, if you have an offer, please do <a onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });">contact me</a>.
+                        I'm currently looking to join any small-medium sized company as a frontend developer. So, if you have an offer, please do <a class="color-pri" onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });">contact me</a>.
                     </p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
@@ -96,7 +95,7 @@
                     <p>RemoteSEOJobs is a free and open-source SEO remote jobs board which I co-founded alongside <a href="https://ng.linkedin.com/in/ayoola-olugbenga-daniel">Ayoola Daniel</a>.<br><br>
                         The main Idea behind the project was to develop something to help talented SEOs easily get access to jobs that suits their area of specialty.
                     </p><br>
-                    <a href="https://github.com/quyumkehinde/remote-seo-jobs/" class="git" target="_blank">Github <i class="fa fa-external-link"></i></a>
+                    <a href="https://remoteseojobs.co/" class="git" target="_blank">Github <i class="fa fa-external-link"></i></a>
                     <a href="http://quyumkehinde.github.io/remote-seo-jobs/" class="live" target="_blank">Live Site <i class="fa fa-external-link"></i></a>
                 </div>
                 <div class="my-col project">
@@ -115,12 +114,12 @@
             <h2>Contact</h2>
             <div class="contacts">
                 <div class="contactForm contact-col">
-                    <form>
-                        <input type="text" placeholder="Enter your name">
-                        <input type="email" placeholder="Enter your email address">
-                        <textarea placeholder="Your message" cols="50" rows="5" ></textarea>
-                        <button type="submit" class="formBtn">Submit</button>
-                    </form>
+                    <div id="contactForm" action="#">
+                        <input id="name" type="text" placeholder="Enter your name" required>
+                        <input id="email" type="email" placeholder="Enter your email address" required>
+                        <textarea id="message" placeholder="Your message" cols="50" rows="5" required></textarea>
+                        <button type="buton" class="formBtn">Submit</button>
+                    </div>
                 </div>
                 <div class="contactDetails contact-col">
                     <h5>Phone Number</h5>
@@ -140,6 +139,9 @@
             </div>
         </section>
     </main>
+    <script src="app.js">
+        
+    </script>
     <footer>
         
         <span>Made with <i class="fa fa-heart" aria-hidden="true"></i> by me</span>

@@ -17,4 +17,13 @@ const toggle = () => {
             }
             
         }
+document.querySelector(".formBtn").addEventListener("click", () => {
+            
+                const name = document.querySelector("#contactForm > #name").value;
+                const email = document.querySelector("#contactForm > #email").value;
+                const message = document.querySelector("#contactForm > #message").value;
+                const mail = "mailto:quyumkehinde@gmail.com?cc="+email+"&subject=Website Contact Form&body="+message+"&subject="+name+" (Contact Form)";
+                console.log(mail)
+                window.open(mail, '_blank');
+            });
     
