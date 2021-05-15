@@ -1,0 +1,177 @@
+<svg id="exchange" width="500" height="104" viewBox="-218 0 500 104" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="GPU_Exchange_brand_guideline_20191115" transform="translate(-808.000000, -357.000000)">
+        <g id="Group-85" transform="translate(101.000000, 321.000000)">
+          <path
+            d="M729.1558,62.9499 L738.1438,62.9499 L738.1438,68.1309 C735.6138,69.3959 732.8438,70.1789 730.6748,70.1789 C723.6868,70.1789 718.3258,64.7569 718.3258,57.5899 C718.3258,50.5419 723.6268,45.1199 730.5538,45.1199 C734.4688,45.1199 738.7458,46.8669 741.8178,49.6989 L747.8428,42.4099 C743.5048,38.5539 736.8798,36.1449 730.6138,36.1449 C717.3018,36.1449 707.3628,45.3619 707.3628,57.5899 C707.3628,69.8779 717.0608,79.1549 729.8908,79.1549 C735.7948,79.1549 742.9028,76.8659 747.4208,73.6719 L747.4208,62.9499 L747.4208,57.2279 L747.4208,54.5159 L729.1558,54.5159 L729.1558,62.9499 Z"
+            id="Fill-59" fill="#0068FF"></path>
+          <path
+            d="M764.7036,58.3727 L771.8116,58.3727 C776.5106,58.3727 779.2216,56.0227 779.2216,51.5657 C779.2216,47.1677 776.5106,44.9397 771.8116,44.9397 L764.7036,44.9397 L764.7036,58.3727 Z M772.3536,36.5067 C783.1376,36.5067 789.3416,41.8077 789.3416,51.2047 C789.3416,61.0827 783.1376,66.8057 772.3536,66.8057 L764.7036,66.8057 L764.7036,78.6717 L753.9816,78.6717 L753.9816,36.5067 L772.3536,36.5067 Z"
+            id="Fill-61" fill="#0068FF"></path>
+          <path
+            d="M831.9849,60.9626 C831.9849,72.1066 824.5759,79.1546 812.7699,79.1546 C800.9029,79.1546 793.3129,72.1066 793.3129,60.9626 L793.3129,36.5066 L804.0359,36.5066 L804.0359,60.9626 C804.0359,66.6856 807.7099,70.1786 812.8299,70.1786 C817.8889,70.1786 821.3229,66.6856 821.3229,60.9626 L821.3229,36.5066 L831.9849,36.5066 L831.9849,60.9626 Z"
+            id="Fill-63" fill="#0068FF"></path>
+            
+          
+        </g>
+      </g>
+    </g>
+    <svg x="-218" y="0" id="logo" width="218" height="94" viewBox="-15 4 218 94" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    #logo {
+      vertical-align: top;
+      margin-top: 0px;
+    }
+
+    #Path {
+      stroke-dasharray: 198.00885009765625;
+      stroke-dashoffset: 0;
+      stroke: #0068FF;
+      stroke-linejoin: round;
+      fill: transparent;
+      stroke-width: 20;
+      animation: g 1s linear backwards;
+    }
+
+    @keyframes g {
+      from {
+        stroke-dashoffset: 198.00885009765625;
+      }
+
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    #Line {
+      stroke-dasharray: 82.72991943359375;
+      stroke-dashoffset: 82.72991943359375;
+      stroke: #0068FF;
+      stroke-width: 20;
+      animation: arrow 0.5s linear forwards 1s;
+    }
+
+    @keyframes arrow {
+      from {
+        stroke-dashoffset: 82.72991943359375;
+      }
+
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    #Line-3 {
+      stroke-dasharray: 55.33985900878906;
+      stroke-dashoffset: 55.33985900878906;
+      stroke: #0068FF;
+      stroke-width: 20;
+      animation: line3 0.5s linear forwards 1.5s;
+    }
+
+    @keyframes line3 {
+      from {
+        stroke-dashoffset: 55.33985900878906;
+      }
+
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    #Line-7 {
+      stroke-dasharray: 56.16493606567383;
+      stroke-dashoffset: 56.16493606567383;
+      stroke: #0068FF;
+      stroke-width: 20;
+      animation: line7 0.5s linear forwards 1.5s;
+    }
+
+    @keyframes line7 {
+      from {
+        stroke-dashoffset: 56.16493606567383;
+      }
+
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    #Line-4 {
+      stroke-dasharray: 59.2304801940918;
+      stroke-dashoffset: 59.2304801940918;
+      stroke: #1DA4FF;
+      stroke-width: 20;
+      z-index: -1;
+      animation: line7 0.5s linear forwards 2s;
+    }
+
+    @keyframes line4 {
+      from {
+        stroke-dashoffset: 59.2304801940918;
+      }
+
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    #Line-2 {
+      stroke-dasharray: 59.686832427978516;
+      stroke-dashoffset: 59.686832427978516;
+      stroke: #1DA4FF;
+      stroke-width: 20;
+      animation: line7 0.5s linear forwards 2s;
+      z-index: -1;
+    }
+
+    @keyframes line2 {
+      from {
+        stroke-dashoffset: 59.686832427978516;
+      }
+
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    #Fill-59,
+    #Fill-61,
+    #Fill-63 {
+      fill: transparent;
+      animation: name1 1s linear forwards 2.5s;
+    }
+
+    #Fill-65,
+    #Fill-67,
+    #Fill-69,
+    #Fill-71,
+    #Fill-73,
+    #Fill-75,
+    #Fill-77,
+    #Fill-79 {
+      fill: transparent;
+      animation: name2 1s linear forwards 2.5s;
+    }
+
+   
+  </style>
+  <g id="Page-2" stroke="none" fill="none">
+    <g id="GPU_Exchange_brand_guideline_20191115" transform="translate(-602.000000, -354.000000)">
+
+      <path
+        d="M663.340202,376.860552 C656.944605,371.339137 648.612251,368 639.5,368 C619.341607,368 603,384.341607 603,404.5 C603,424.658393 619.341607,441 639.5,441 L639.5,441 C659.658393,441 676,424.658393 676,404.5"
+        id="Path" stroke="#979797" fill="#D8D8D8"></path>
+      <path d="M730.5,400 L699,354.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+      <path d="M730.5,406 L699,452.5" id="Line-7" stroke="#979797" stroke-linecap="square"></path>
+      <path d="M767,355.25 L733,403.75" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+      <path d="M648.5,403.4437 L722.2299,403.4437" id="Line" stroke="#979797" stroke-linecap="square"></path>
+      <path d="M767,452.52815 L733,403.47185" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+      <use id="use" xlink:href="#Line-3" />
+      <use id="use" xlink:href="#Line-7" />
+    </g>
+  </g>
+</svg>
+  </svg>

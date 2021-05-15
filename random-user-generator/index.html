@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Users Generator</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/vue@next"></script>
+    
+</head>
+<body>
+    <div id="root" class="flex justify-center items-center">
+        <div class="flex justify-center items-center" :class="gender" style= "font-size: 18px; background-color: #eee; border: 1px solid #020919; border-radius: 5px; padding: 20px; box-sizing: border-box; flex-direction: column; width: 95%; max-width: 400px;">
+            <div class="img-container">
+                <img :src="image" v-bind:alt="name" />
+            </div>
+            <h2 style="margin-bottom: 15px; ">{{ name }}</h2>
+            <p style="opacity: 0.7; font-size: 15px; margin-bottom: 15px;">Email: {{ email }}</p>
+            <button v-on:click="generate" class="btn" style="cursor: pointer; padding: 10px; font-size: 15px; border: 1px solid #020919; color: white; border-radius: 5px;">Generate User</button>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
