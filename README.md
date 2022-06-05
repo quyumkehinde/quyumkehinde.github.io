@@ -1,5 +1,3 @@
-# Remote-SEO-Jobs
+## Description
 
-## Website URL
-
-### quyumkehinde.github.io
+A repository for deploying my projects to the github.io platform.
